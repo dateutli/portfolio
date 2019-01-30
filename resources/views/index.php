@@ -153,7 +153,7 @@
         <!--//item-->
         <div class="item">
           <span class="project-title">
-            <a href="#" target="_blank">Trackr</a>
+            <a href="trackr">Trackr <i class="fas fa-link"></i></a>
           </span> -
           <span class="project-tagline">
             Keep track of mileage, estimated gas usage, and vehicle’s real-time position.
@@ -168,8 +168,8 @@
         </div>
         <!--//item-->
         <div class="item">
-          <span class="project-title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/"
-              target="_blank">ARound</a></span> - <span class="project-tagline">
+          <span class="project-title"><a href="https://devpost.com/software/around-djze8c"
+              target="_blank">ARound <i class="fas fa-link"></i></a></span> - <span class="project-tagline">
             Augmented reality application developed to bring the online shopping experience to brick and
             mortar stores.
           </span>
