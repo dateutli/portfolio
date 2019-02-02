@@ -37,7 +37,7 @@
         <ul class="list-unstyled contact-list">
           <li class="email"><i class="fas fa-envelope"></i><a href="mailto: dateutli@gmail.com">dateutli@gmail.com</a></li>
           <li class="phone"><i class="fas fa-phone"></i><a href="tel:9152010158">(915) 201-0158</a></li>
-          <li class="website"><i class="fas fa-globe"></i><a href="index.html">dateutli.com</a></li>
+          <li class="website"><i class="fas fa-globe"></i><a href="index.html">davidteutli.com</a></li>
           <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/dateutli" target="_blank">linkedin.com/in/dateutli</a></li>
           <li class="github"><i class="fab fa-github"></i><a href="https://github.com/dateutli" target="_blank">github.com/dateutli</a></li>
         </ul>
