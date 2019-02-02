@@ -27,7 +27,7 @@
   <div class="wrapper">
     <div class="sidebar-wrapper">
       <div class="profile-container">
-        <img class="profile img-fluid" src="assets/images/profile.png" alt="" />
+        <!-- <img class="profile img-fluid" src="assets/images/profile.png" alt="" /> -->
         <h1 class="name">David Teutli</h1>
         <h3 class="tagline">Full Stack Developer</h3>
       </div>
