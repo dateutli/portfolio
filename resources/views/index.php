@@ -146,7 +146,7 @@
         <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Professional &
           Personal Projects</h2>
         <div class="item">
-          <span class="project-title"><a href="#hook">CLOCKINOUT</a></span> - <span class="project-tagline">
+          <span class="project-title"><a href="clockinout">CLOCKINOUT <i class="fas fa-link"></i></a></span> - <span class="project-tagline">
             Web application to keep track of employee's hours
           </span>
         </div>

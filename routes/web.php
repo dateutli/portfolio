@@ -7,3 +7,7 @@ $router->get('/', function () use ($router) {
 $router->get('/trackr', function () use ($router) {
     return view('trackr');
 });
+
+$router->get('/clockinout', function () use ($router) {
+    return view('clockinout');
+});

@@ -39,21 +39,18 @@
     <div class="container">
         <div class="row mt-2">
 
-            <div class="col-lg-9 col-md-8 col-sm-12 col-12 text-center mb-1 px-1">
-                <div class="card">
-                    <div class="card-header bg-info text-white p-1">
-                      Map
-                    </div>
-                    <div id="map" style="height:500px;"></div>
-                </div>
-            </div>
+            
 
             <div class="col-lg-3 col-md-4 col-sm-12 col-12 text-center px-1">
-                <div class="card">
+                <div class="card mb-2">
                     <div class="card-header bg-info text-white p-1">
-                        Vehicle Information
+                        Project Information
                     </div>
                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-left">
+                            TRACKR is a web application to monitor the position of GPS trackers in real-time.
+                            Here is an example of the main component, "live-view", with a geofence and a vehicle status bar.
+                        </li>
                         <li class="list-group-item">
                             <button class="btn btn-primary btn-block" onclick="toggleGeofence();">
                                 <i class="fas fa-vector-square fa-fw"></i> Toggle Geofence
@@ -64,24 +61,30 @@
                                 Vehicle #1 is within bounds!
                             </div>
                         </li>
-                    </ul>
-                </div>
-
-                <div class="card mt-2">
-                    <div class="card-header bg-info text-white p-1">
-                        Project Information
-                    </div>
-                    <ul class="list-group list-group-flush">
                         <li class="list-group-item text-left">
-                            TRACKR is a web application that works with most generic GPS trackers. It makes use of websockets to read in data from the GPS trackers and pushes it into a database.
-                            It was built with Lumen (PHP), JavaScript, Bootstrap, Google Maps API, and the Stripe API.
+                            <span class="badge badge-secondary">Lumen</span>
+                            <span class="badge badge-secondary">PHP</span>
+                            <span class="badge badge-secondary">JavaScript</span>
+                            <span class="badge badge-secondary">Bootstrap</span>
+                            <span class="badge badge-secondary">MySQL</span>
+                            <span class="badge badge-secondary">Google Maps</span>
+                            <span class="badge badge-secondary">Stripe</span>
                         </li>
                         <li class="list-group-item">
-                            <i class="fab fa-github fa-fw"></i> <a href="https://github.com/dateutli/tracker"> GitHub: TRACKR</a>
+                            <i class="fab fa-github fa-fw"></i> <a href="https://github.com/dateutli/tracker"> GitHub:
+                                TRACKR</a>
                         </li>
                     </ul>
                 </div>
+            </div>
 
+            <div class="col-lg-9 col-md-8 col-sm-12 col-12 text-center mb-1 px-1">
+                <div class="card">
+                    <div class="card-header bg-info text-white p-1">
+                        Map
+                    </div>
+                    <div id="map" style="height:500px;"></div>
+                </div>
             </div>
 
         </div>
