@@ -39,8 +39,6 @@
     <div class="container">
         <div class="row mt-2">
 
-            
-
             <div class="col-lg-3 col-md-4 col-sm-12 col-12 text-center px-1">
                 <div class="card mb-2">
                     <div class="card-header bg-info text-white p-1">
@@ -49,19 +47,15 @@
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item text-left">
                             TRACKR is a web application to monitor the position of GPS trackers in real-time.
-                            Here is an example of the main component, "live-view", with a geofence and a vehicle status bar.
-                        </li>
-                        <li class="list-group-item">
-                            <button class="btn btn-primary btn-block" onclick="toggleGeofence();">
-                                <i class="fas fa-vector-square fa-fw"></i> Toggle Geofence
-                            </button>
+                            Here is an example of the main component, "live-view", with a geofence and a vehicle status
+                            bar.
                         </li>
                         <li class="list-group-item" id="bounds-alert">
                             <div class="alert alert-success mb-1" role="alert">
-                                Vehicle #1 is within bounds!
+                                Vehicle is within bounds!
                             </div>
                         </li>
-                        <li class="list-group-item text-left">
+                        <li class="list-group-item text-center">
                             <span class="badge badge-secondary">Lumen</span>
                             <span class="badge badge-secondary">PHP</span>
                             <span class="badge badge-secondary">JavaScript</span>
@@ -93,6 +87,11 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
+        var zoomLevel = 13;
+        if ($(window).width() < 992) {
+            zoomLevel = 12;
+            $('#map').height('300px');
+        }
         var geofence, map, marker;
         var i = 70;
         var route = [
@@ -786,10 +785,42 @@
             }
         };
 
+        function CenterControl(controlDiv, map) {
+
+            // Set CSS for the control border.
+            var controlUI = document.createElement('div');
+            controlUI.style.backgroundColor = '#fff';
+            controlUI.style.border = '2px solid #fff';
+            controlUI.style.borderRadius = '3px';
+            controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+            controlUI.style.cursor = 'pointer';
+            controlUI.style.marginBottom = '22px';
+            controlUI.style.textAlign = 'center';
+            controlUI.title = 'Click to toggle geofence';
+            controlDiv.appendChild(controlUI);
+
+            // Set CSS for the control interior.
+            var controlText = document.createElement('div');
+            controlText.style.color = 'rgb(25,25,25)';
+            controlText.style.fontFamily = 'Roboto,Arial,sans-serif';
+            controlText.style.fontSize = '16px';
+            controlText.style.lineHeight = '38px';
+            controlText.style.paddingLeft = '5px';
+            controlText.style.paddingRight = '5px';
+            controlText.innerHTML = 'Geofence';
+            controlUI.appendChild(controlText);
+
+            // Setup the click event listeners: simply set the map to Chicago.
+            controlUI.addEventListener('click', function () {
+                toggleGeofence();
+            });
+
+        }
+
         function initMap() {
             map = new google.maps.Map(
                 document.getElementById('map'), {
-                    zoom: 13,
+                    zoom: zoomLevel,
                     center: { lat: 31.805153, lng: -106.392383 },
                     disableDefaultUI: true,
                     gestureHandling: 'none',
@@ -972,20 +1003,24 @@
             });
             marker.setMap(map);
             geofence.setMap(map);
+
+            var centerControlDiv = document.createElement('div');
+            var centerControl = new CenterControl(centerControlDiv, map);
+            centerControlDiv.index = 1;
+            map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
+
         }
 
         setInterval(function () {
             if (i > 78 && i < 132) {
                 $('#bounds-alert').html('');
-                $('#bounds-alert').html('<div class="alert alert-danger mb-1" role="alert">Vehicle #1 exited the allowed perimiter!</div>');
+                $('#bounds-alert').html('<div class="alert alert-danger mb-1" role="alert">Vehicle is out of bounds!</div>');
             } else {
-                $('#bounds-alert').html('<div class="alert alert-success mb-1" role="alert">Vehicle #1 is within bounds!</div>');
+                $('#bounds-alert').html('<div class="alert alert-success mb-1" role="alert">Vehicle is within bounds!</div>');
             }
             if (i >= route.length) i = 0;
             marker.setPosition({ lat: route[i][0], lng: route[i++][1] });
         }, 400);
-
-
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbyFL0xrQjqK-4VtFn00T4f3xqDZwdTgw &callback=initMap">
     </script>
