@@ -142,7 +142,7 @@
 
                 <div class="item">
                     <span class="project-title">
-                        <a href="#">Bachego</a>
+                      Bachego
                     </span> -
                     <span class="project-tagline">
                         <span class="font-italic">CAMPUSLINK 2016 FIRST PLACE. </span>

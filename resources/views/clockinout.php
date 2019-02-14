@@ -347,7 +347,7 @@
 
         $('.employee-log').click(function () {
             $('#user-logs tbody tr').remove();
-            let id = $(this).data('id');
+            let id = $(this).data('id') - 1;
             loadBarChart(id);
             let tr = '<tr>\
             <td>'+ employees[id].name + '</td>\
