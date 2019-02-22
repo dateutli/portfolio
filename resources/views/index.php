@@ -12,10 +12,12 @@
     <meta name="author" content="David teutli">
     <link rel="shortcut icon" href="favicon.ico">
     <!-- Google Font -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+    <link
+        href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
         rel='stylesheet' type='text/css'>
     <!-- FontAwesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+        integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
         crossorigin="anonymous"></script>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -35,12 +37,14 @@
 
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: dateutli@gmail.com">dateutli@gmail.com</a></li>
+                    <li class="email"><i class="fas fa-envelope"></i><a
+                            href="mailto: dateutli@gmail.com">dateutli@gmail.com</a></li>
                     <li class="phone"><i class="fas fa-phone"></i><a href="tel:9152010158">(915) 201-0158</a></li>
                     <li class="website"><i class="fas fa-globe"></i><a href="#">davidteutli.com</a></li>
                     <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/dateutli"
                             target="_blank">linkedin.com/in/dateutli</a></li>
-                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/dateutli" target="_blank">github.com/dateutli</a></li>
+                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/dateutli"
+                            target="_blank">github.com/dateutli</a></li>
                 </ul>
             </div>
             <!--//contact-container-->
@@ -69,7 +73,9 @@
                 <ul class="list-unstyled interests-list">
                     <li>Traveling</li>
                     <li>Hackathons</li>
-                    <li>Chess</li>
+                    <li>
+                        <a href="https://lichess.org/@/dateutli">Chess</a>
+                    </li>
                 </ul>
             </div>
             <!--//interests-->
@@ -87,7 +93,7 @@
                     <div class="meta">
                         <div class="upper-row">
                             <h3 class="job-title">Full Stack Developer</h3>
-                            <div class="time">2014 - 2018</div>
+                            <div class="time">2015 - 2018</div>
                         </div>
                         <!--//upper-row-->
                         <div class="company">Center for Transportation Infrastructure Systems</div>
@@ -119,11 +125,22 @@
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-trophy"></i></span>Awards</h2>
 
                 <div class="item">
-                    <span class="project-title"><a href="https://devpost.com/software/american-airlines-companion-app"
-                            target="_blank">American
-                            Airlines Companion <i class="fas fa-link"></i></a></span> -
+                    <span class="project-title"><a href="https://devpost.com/software/time-map"
+                            target="_blank">
+                            1<sup>st</sup> Place Parkhub Challenge
+                            <i class="fas fa-link"></i></a></span> -
                     <span class="project-tagline">
-                        <span class="font-italic">BEST AIRLINE INDUSTRY HACK. </span>
+                        <strong> HackDFW 2019</strong></br>
+                        Web application to predict traffic based on past traffic data, crowdsourced parking information, and high-attendance public events.
+                    </span>
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                    <span class="project-title"><a href="https://devpost.com/software/american-airlines-companion-app"
+                            target="_blank">BEST AIRLINE INDUSTRY HACK<i class="fas fa-link"></i></a></span> -
+                    <span class="project-tagline">
+                        <strong> TAMUHACK 2018</strong></br>
                         Your all-in-one solution for traveling information, in-flight experience, and productivity
                         enhancenment for
                         attendants.</span>
@@ -131,10 +148,12 @@
                 <!--//item-->
 
                 <div class="item">
-                    <span class="project-title"><a href="https://devpost.com/software/tagait-tracker" target="_blank">Tagait
-                            Tracker <i class="fas fa-link"></i></a></span> -
+                    <span class="project-title"><a href="https://devpost.com/software/tagait-tracker"
+                            target="_blank">
+                            TAGAIT CHALLENGE WINNER
+                            <i class="fas fa-link"></i></a></span> -
                     <span class="project-tagline">
-                        <span class="font-italic">TAGAIT CHALLENGE WINNER. </span>
+                        <strong>EARTHACK 2017</strong></br>
                         Easy and convenient way to manage a fleet that is compatible with any kind of vehicle.
                     </span>
                 </div>
@@ -142,10 +161,10 @@
 
                 <div class="item">
                     <span class="project-title">
-                      Bachego
+                        1<sup>st</sup> Place
                     </span> -
                     <span class="project-tagline">
-                        <span class="font-italic">CAMPUSLINK 2016 FIRST PLACE. </span>
+                        <strong>CAMPUSLINK 2016</strong></br>
                         Web application to report potholes, burnt out street lights, water leaks, and other city
                         related issues.
                     </span>
@@ -169,14 +188,16 @@
                 <!--//item-->
                 <div class="item">
                     <span class="project-title">
-                        <a href="https://github.com/dateutli/rutasjuarez" target="_blank">Bus Route Maker <i class="fas fa-link"></i></a>
+                        <a href="https://github.com/dateutli/rutasjuarez" target="_blank">Bus Route Maker <i
+                                class="fas fa-link"></i></a>
                         </a></span> - <span class="project-tagline">
                         Web application to create, edit, and find bus routes.
                     </span>
                 </div>
                 <!--//item-->
                 <div class="item">
-                    <span class="project-title"><a href="https://devpost.com/software/around-djze8c" target="_blank">ARound
+                    <span class="project-title"><a href="https://devpost.com/software/around-djze8c"
+                            target="_blank">ARound
                             <i class="fas fa-link"></i></a></span> - <span class="project-tagline">
                         Augmented reality application developed to bring the online shopping experience to brick and
                         mortar stores.
