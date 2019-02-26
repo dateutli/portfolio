@@ -40,18 +40,23 @@
                     <li class="email"><i class="fas fa-envelope"></i><a
                             href="mailto: dateutli@gmail.com">dateutli@gmail.com</a></li>
                     <li class="phone"><i class="fas fa-phone"></i><a href="tel:9152010158">(915) 201-0158</a></li>
-                    <li class="website"><i class="fas fa-globe"></i><a href="#">davidteutli.com</a></li>
                     <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/dateutli"
                             target="_blank">linkedin.com/in/dateutli</a></li>
                     <li class="github"><i class="fab fa-github"></i><a href="https://github.com/dateutli"
                             target="_blank">github.com/dateutli</a></li>
+                    <li class="devpost">
+                        <i class="fa fa-link"></i>
+                        <a href="https://devpost.com/dateutli" target="_blank">
+                            devpost.com/dateutli
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!--//contact-container-->
             <div class="education-container container-block">
                 <h2 class="container-block-title">Education</h2>
                 <div class="item">
-                    <h4 class="degree">BSc in Computer Science</h4>
+                    <h4 class="degree">B.S. in Computer Science</h4>
                     <h5 class="meta">The University of Texas at El Paso</h5>
                     <div class="time">Fall 2018</div>
                 </div>
@@ -77,6 +82,13 @@
                         <a href="https://lichess.org/@/dateutli">Chess</a>
                     </li>
                 </ul>
+            </div>
+            <!--//interests-->
+
+            <div class="interests-container container-block">
+                <a class="btn btn-block btn-light text-dark" href="assets/files/resume.pdf" target="_blank">
+                    <i class="fa fa-file-alt"></i> Resume
+                </a>
             </div>
             <!--//interests-->
 
@@ -142,7 +154,7 @@
                     <span class="project-tagline">
                         <strong> TAMUHACK 2018</strong></br>
                         Your all-in-one solution for traveling information, in-flight experience, and productivity
-                        enhancenment for
+                        enhancement for
                         attendants.</span>
                 </div>
                 <!--//item-->
@@ -224,7 +236,7 @@
                     <div class="item">
                         <h3 class="level-title">PHP</h3>
                         <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%"
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%"
                                 aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -233,7 +245,7 @@
                     <div class="item">
                         <h3 class="level-title">Java</h3>
                         <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%"
                                 aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -251,7 +263,7 @@
                     <div class="item">
                         <h3 class="level-title">Python</h3>
                         <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%"
                                 aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
@@ -259,6 +271,15 @@
 
                     <div class="item">
                         <h3 class="level-title">Laravel / Lumen</h3>
+                        <div class="progress level-bar">
+                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"
+                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">VueJs</h3>
                         <div class="progress level-bar">
                             <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"
                                 aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
