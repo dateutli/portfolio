@@ -150,7 +150,7 @@
 
                 <div class="item">
                     <span class="project-title"><a href="https://devpost.com/software/american-airlines-companion-app"
-                            target="_blank">BEST AIRLINE INDUSTRY HACK<i class="fas fa-link"></i></a></span> -
+                            target="_blank">BEST AIRLINE INDUSTRY HACK <i class="fas fa-link"></i></a></span> -
                     <span class="project-tagline">
                         <strong> TAMUHACK 2018</strong></br>
                         Your all-in-one solution for traveling information, in-flight experience, and productivity
