@@ -15,3 +15,7 @@ $router->get('/clockinout', function () use ($router) {
 $router->get('/gps', function () use ($router) {
     return view('test');
 });
+
+$router->get('/ww', function () use ($router) {
+    return view('webworker');
+});
