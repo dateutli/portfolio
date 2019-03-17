@@ -6,6 +6,8 @@
 <button onclick="startWorker()">Start Worker</button>
 <button onclick="stopWorker()">Stop Worker</button>
 
+<script src="vendor/jquery/jquery.min.js"></script>
+
 <script>
 var w;
 
