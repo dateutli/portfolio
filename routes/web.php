@@ -19,3 +19,7 @@ $router->get('/gps', function () use ($router) {
 $router->get('/ww', function () use ($router) {
     return view('ww');
 });
+
+$router->get('/nonww', function () use ($router) {
+    return view('nonww');
+});
