@@ -16,6 +16,17 @@ function startWorker() {
     }
     w.onmessage = function(event) {
       document.getElementById("result").innerHTML = event.data;
+
+        navigator.geolocation.getCurrentPosition(function(position) {
+            if(window.navigator.onLine){
+                $.post('upload.php', {
+                    time: (new Date).toUTCString(),
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                })
+            }
+        });
+
     };
   } else {
     document.getElementById("result").innerHTML = "Sorry! No Web Worker support.";

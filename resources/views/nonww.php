@@ -12,6 +12,15 @@ function timedCount() {
     i = i + 1;
     document.getElementById("result").innerHTML = i;
     setTimeout("timedCount()",500);
+    navigator.geolocation.getCurrentPosition(function(position) {
+        if(window.navigator.onLine){
+            $.post('upload.php', {
+                time: (new Date).toUTCString(),
+                lat: position.coords.latitude,
+                lng: position.coords.longitude
+            })
+        }
+    });
 }
 
 function startWorker() {
