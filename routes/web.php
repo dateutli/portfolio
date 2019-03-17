@@ -17,5 +17,5 @@ $router->get('/gps', function () use ($router) {
 });
 
 $router->get('/ww', function () use ($router) {
-    return view('webworker');
+    return view('ww');
 });
