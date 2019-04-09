@@ -11,15 +11,3 @@ $router->get('/trackr', function () use ($router) {
 $router->get('/clockinout', function () use ($router) {
     return view('clockinout');
 });
-
-$router->get('/gps', function () use ($router) {
-    return view('test');
-});
-
-$router->get('/ww', function () use ($router) {
-    return view('ww');
-});
-
-$router->get('/nonww', function () use ($router) {
-    return view('nonww');
-});
