@@ -12,13 +12,9 @@
     <meta name="author" content="David teutli">
     <link rel="shortcut icon" href="favicon.ico">
     <!-- Google Font -->
-    <link
-        href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
-        rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- FontAwesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
-        integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
-        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Theme CSS -->
@@ -37,13 +33,10 @@
 
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fas fa-envelope"></i><a
-                            href="mailto: dateutli@gmail.com">dateutli@gmail.com</a></li>
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: dateutli@gmail.com">dateutli@gmail.com</a></li>
                     <li class="phone"><i class="fas fa-phone"></i><a href="tel:9152010158">(915) 201-0158</a></li>
-                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/dateutli"
-                            target="_blank">linkedin.com/in/dateutli</a></li>
-                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/dateutli"
-                            target="_blank">github.com/dateutli</a></li>
+                    <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://linkedin.com/in/dateutli" target="_blank">linkedin.com/in/dateutli</a></li>
+                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/dateutli" target="_blank">github.com/dateutli</a></li>
                     <li class="devpost">
                         <i class="fa fa-link"></i>
                         <a href="https://devpost.com/dateutli" target="_blank">
@@ -104,27 +97,59 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Full Stack Developer</h3>
-                            <div class="time">2015 - 2018</div>
+                            <h3 class="job-title">Information Systems Manager</h3>
+                            <div class="time">April 2019 - Present</div>
                         </div>
                         <!--//upper-row-->
-                        <div class="company">Center for Transportation Infrastructure Systems</div>
+                        <div class="company">El Paso Community College</div>
                     </div>
                     <!--//meta-->
                     <div class="details">
-                        <p>Worked on statewide research projects from conception to closure. Automated processes to
-                            speed up research projects completion. Developed projects for both research and managerial
-                            purposes such as:</p>
-                        PAVEPER, an online tool to measure and predict the performance of roads in Texas
+                        <ul>
+                            <li>Developed an Alexa Skill (NodeJs) to answer FAQ by students along with a web app (Laravel, MySQL) to manage and update the Skill content</li>
+                            <li>Served as a liaison between non technical staff and the IT department</li>
+                            <li>Automated several processes with Selenium and Python</li>
+                        </ul>
+                    </div>
+                    <!--//details-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Remote Laravel Developer</h3>
+                            <div class="time">March 2019 - Present</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">Redpah - 3D Print File Marketplace</div>
+                    </div>
+                    <!--//meta-->
+                    <div class="details">
+                        <ul>
+                            <li>Maintained existing and developed new features for the website</li>
+                            <li>Set up version control, deployment system, and maintenance system</li>
+                        </ul>
+                    </div>
+                    <!--//details-->
+                </div>
+                <!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Research Assistant</h3>
+                            <div class="time">2015 - 2018</div>
+                        </div>
+                        <!--//upper-row-->
+                        <div class="company">Center for Transportation Infrastructure Systems <a href="https://www.utep.edu/engineering/ctis/" target="_blank"><i class="fas fa-link"></i></a></div>
+                    </div>
+                    <!--//meta-->
+                    <div class="details">
                         <ul>
                             <li>Used the CRISP model to perform data mining making use of MySQL and Python</li>
                             <li>Designed and developed a UI with Bootstrap, JavaScript, and the Google Maps API</li>
                         </ul>
-                        <a href="clockinout">CLOCKINOUT <i class="fas fa-link"></i></a>, a web application to keep
-                        track of employees' performance
-                        <ul>
-                            <li>Developed an API to handle CRUD requests making use of Lumen</li>
-                            <li>Designed and developed a responsive website with Bootstrap and JavaScript</li>
                     </div>
                     <!--//details-->
                 </div>
@@ -137,8 +162,7 @@
                 <h2 class="section-title"><span class="icon-holder"><i class="fas fa-trophy"></i></span>Awards</h2>
 
                 <div class="item">
-                    <span class="project-title"><a href="https://devpost.com/software/time-map"
-                            target="_blank">
+                    <span class="project-title"><a href="https://devpost.com/software/time-map" target="_blank">
                             1<sup>st</sup> Place Parkhub Challenge
                             <i class="fas fa-link"></i></a></span> -
                     <span class="project-tagline">
@@ -149,8 +173,7 @@
                 <!--//item-->
 
                 <div class="item">
-                    <span class="project-title"><a href="https://devpost.com/software/american-airlines-companion-app"
-                            target="_blank">BEST AIRLINE INDUSTRY HACK <i class="fas fa-link"></i></a></span> -
+                    <span class="project-title"><a href="https://devpost.com/software/american-airlines-companion-app" target="_blank">BEST AIRLINE INDUSTRY HACK <i class="fas fa-link"></i></a></span> -
                     <span class="project-tagline">
                         <strong> TAMUHACK 2018</strong></br>
                         Your all-in-one solution for traveling information, in-flight experience, and productivity
@@ -160,8 +183,7 @@
                 <!--//item-->
 
                 <div class="item">
-                    <span class="project-title"><a href="https://devpost.com/software/tagait-tracker"
-                            target="_blank">
+                    <span class="project-title"><a href="https://devpost.com/software/tagait-tracker" target="_blank">
                             TAGAIT CHALLENGE WINNER
                             <i class="fas fa-link"></i></a></span> -
                     <span class="project-tagline">
@@ -200,16 +222,14 @@
                 <!--//item-->
                 <div class="item">
                     <span class="project-title">
-                        <a href="https://github.com/dateutli/rutasjuarez" target="_blank">Bus Route Maker <i
-                                class="fas fa-link"></i></a>
+                        <a href="https://github.com/dateutli/rutasjuarez" target="_blank">Bus Route Maker <i class="fas fa-link"></i></a>
                         </a></span> - <span class="project-tagline">
                         Web application to create, edit, and find bus routes.
                     </span>
                 </div>
                 <!--//item-->
                 <div class="item">
-                    <span class="project-title"><a href="https://devpost.com/software/around-djze8c"
-                            target="_blank">ARound
+                    <span class="project-title"><a href="https://devpost.com/software/around-djze8c" target="_blank">ARound
                             <i class="fas fa-link"></i></a></span> - <span class="project-tagline">
                         Augmented reality application developed to bring the online shopping experience to brick and
                         mortar stores.
@@ -220,109 +240,36 @@
             <!--//section-->
 
             <section class="skills-section section">
-                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp;
-                    Proficiency</h2>
-                <div class="skillset">
-
-                    <div class="item">
-                        <h3 class="level-title">Javascript</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Technologies</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Javascript</li>
+                            <li>PHP</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>MySQL</li>
+                        </ul>
                     </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">PHP</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Laravel</li>
+                            <li>Lumen</li>
+                            <li>VueJs</li>
+                            <li>Bootstrap</li>
+                            <li>Bulma</li>
+                            <li>GitHub</li>
+                        </ul>
                     </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Java</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                    <div class="col-md-4">
+                        <ul>
+                            <li>Google Maps API</li>
+                            <li>Paypal Payments API</li>
+                            <li>Stripe</li>
+                            <li>Twilio</li>
+                        </ul>
                     </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">C</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Python</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 70%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Laravel / Lumen</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">VueJs</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Bootstrap</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 90%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">MySQL</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">Google Maps API</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <!--//item-->
-
-                    <div class="item">
-                        <h3 class="level-title">GitHub</h3>
-                        <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 50%"
-                                aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <!--//item-->
-
                 </div>
             </section>
             <!--//skills-section-->
