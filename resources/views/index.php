@@ -106,8 +106,8 @@
                     <!--//meta-->
                     <div class="details">
                         <ul>
-                            <li>Developed an Alexa Skill (NodeJs) to answer FAQ by students along with a web app (Laravel, MySQL) to manage and update the Skill content</li>
-                            <li>Served as a liaison between non technical staff and the IT department</li>
+                            <li>Developed an Alexa Skill to answer FAQ by students along with a companion website to manage and update the Skill content</li>
+                            <li>Served as a liaison between non-technical staff and the IT department</li>
                             <li>Automated several processes with Selenium and Python</li>
                         </ul>
                     </div>
@@ -129,6 +129,7 @@
                         <ul>
                             <li>Maintained existing and developed new features for the website</li>
                             <li>Set up version control, deployment system, and maintenance system</li>
+                            <li>Improved record retrieval times across the whole website</li>
                         </ul>
                     </div>
                     <!--//details-->
@@ -147,8 +148,8 @@
                     <!--//meta-->
                     <div class="details">
                         <ul>
-                            <li>Used the CRISP model to perform data mining making use of MySQL and Python</li>
-                            <li>Designed and developed a UI with Bootstrap, JavaScript, and the Google Maps API</li>
+                            <li>Developed a web application to measure and predict the performance lives of roads across the whole state of Texas</li>
+                            <li>Designed an online tool to keep track of employees’ performance</li>
                         </ul>
                     </div>
                     <!--//details-->
@@ -244,9 +245,9 @@
                 <div class="row">
                     <div class="col-md-4">
                         <ul>
-                            <li>Javascript</li>
                             <li>PHP</li>
                             <li>Java</li>
+                            <li>Javascript</li>
                             <li>Python</li>
                             <li>C</li>
                             <li>MySQL</li>
@@ -264,9 +265,10 @@
                     </div>
                     <div class="col-md-4">
                         <ul>
+                            <li>Amazon Web Services</li>
                             <li>Google Maps API</li>
-                            <li>Paypal Payments API</li>
                             <li>Stripe</li>
+                            <li>Paypal Payments API</li>
                             <li>Twilio</li>
                         </ul>
                     </div>
