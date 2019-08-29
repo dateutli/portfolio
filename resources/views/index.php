@@ -250,16 +250,14 @@
                             <li>Javascript</li>
                             <li>Python</li>
                             <li>C</li>
-                            <li>MySQL</li>
                         </ul>
                     </div>
                     <div class="col-md-4">
                         <ul>
-                            <li>Laravel</li>
-                            <li>Lumen</li>
+                            <li>MySQL</li>
+                            <li>Laravel / Lumen</li>
                             <li>VueJs</li>
-                            <li>Bootstrap</li>
-                            <li>Bulma</li>
+                            <li>Bootstrap / Bulma</li>
                             <li>GitHub</li>
                         </ul>
                     </div>
@@ -267,8 +265,7 @@
                         <ul>
                             <li>Amazon Web Services</li>
                             <li>Google Maps API</li>
-                            <li>Stripe</li>
-                            <li>Paypal Payments API</li>
+                            <li>Stripe / PayPal</li>
                             <li>Twilio</li>
                         </ul>
                     </div>
