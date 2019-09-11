@@ -200,7 +200,7 @@
                     </span> -
                     <span class="project-tagline">
                         <strong>CAMPUSLINK 2016</strong></br>
-                        Web application to report potholes, burnt out street lights, water leaks, and other city
+                        Web application to report potholes, burnt out streetlights, water leaks, and other city
                         related issues.
                     </span>
                 </div>
