@@ -1,3 +1,4 @@
+<!-- Theme created by: https://github.com/xriley/Orbit-Theme -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,8 +61,8 @@
             <div class="languages-container container-block">
                 <h2 class="container-block-title">Languages</h2>
                 <ul class="list-unstyled interests-list">
-                    <li>English <span class="lang-desc">(Professional)</span></li>
-                    <li>Spanish <span class="lang-desc">(Native)</span></li>
+                    <li>English</li>
+                    <li>Spanish</li>
                 </ul>
             </div>
             <!--//interests-->
@@ -139,15 +140,16 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Research Assistant</h3>
-                            <div class="time">2015 - 2018</div>
+                            <h3 class="job-title">Full-Stack Developer</h3>
+                            <div class="time">April 2015 - December 2018</div>
                         </div>
                         <!--//upper-row-->
-                        <div class="company">Center for Transportation Infrastructure Systems <a href="https://www.utep.edu/engineering/ctis/" target="_blank"><i class="fas fa-link"></i></a></div>
+                        <div class="company">Center for Transportation Infrastructure Systems</div>
                     </div>
                     <!--//meta-->
                     <div class="details">
                         <ul>
+                            <li>Started out as a volunteer, hired as a part-timer after a few months, and later on became a full-time employee</li>
                             <li>Developed a web application to measure and predict the performance lives of roads across the whole state of Texas</li>
                             <li>Designed an online tool to keep track of employees’ performance</li>
                         </ul>
