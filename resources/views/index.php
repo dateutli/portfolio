@@ -149,9 +149,9 @@
                     <!--//meta-->
                     <div class="details">
                         <ul>
-                            <li>Started out as a volunteer, hired as a part-timer after a few months, and later on became a full-time employee</li>
-                            <li>Developed a web application to measure and predict the performance lives of roads across the whole state of Texas</li>
+                            <li>Worked on differents project across all cycles from conception to completion</li>
                             <li>Designed an online tool to keep track of employees’ performance</li>
+                            <li>Developed a web application to measure and predict the performance lives of roads across the whole state of Texas</li>
                         </ul>
                     </div>
                     <!--//details-->
