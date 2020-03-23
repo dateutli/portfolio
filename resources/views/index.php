@@ -149,7 +149,7 @@
                     <!--//meta-->
                     <div class="details">
                         <ul>
-                            <li>Worked on differents project across all cycles from conception to completion</li>
+                            <li>Worked on different projects across all cycles from conception to completion</li>
                             <li>Designed an online tool to keep track of employees’ performance</li>
                             <li>Developed a web application to measure and predict the performance lives of roads across the whole state of Texas</li>
                         </ul>
